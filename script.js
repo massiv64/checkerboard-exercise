@@ -31,4 +31,9 @@ window.onload = function(){
         e.appendChild(row); 
       } 
     }
+    //defines color for checkerboard pattern
+  function bgClr(val){
+    if (val % 2 === 0) return("red");
+    return("black");
+  }  
 };
